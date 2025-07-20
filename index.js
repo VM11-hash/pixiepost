@@ -76,7 +76,7 @@ app.post("/profile/:username/post/:id/edit",(req,res) => {
 })
 
 app.listen(port,()=>{
-    console.log("Listening to port : 8080");
+    console.log("Listening to port : 8000");
 })
 
 app.delete("/profile/:username/post/:id",(req,res) => {
