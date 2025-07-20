@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create new post</title>
+    <link rel="stylesheet" href="/styleprofile.css">
+</head>
+<body>
+    <header>
+        <h1>PixiePost</h1>
+    </header>
+    <form method="post" action="/profile/<%=username%>/post/new">
+        <textarea placeholder="Enter image link" name="image" class="text-area"></textarea>
+        <br>
+        <br>
+        <textarea placeholder="Enter caption" name="caption" class="text-area"></textarea>
+        <br>
+        <br>
+        <button class="btn">Submit post</button>
+    </form>
+</body>
+</html>

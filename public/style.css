@@ -1,0 +1,38 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    height: 100vh;
+    width:100vw;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color: #faf5ff;
+    background-image: url("/Images/bg.jpg");
+}
+.main{
+    width:400px;
+    margin :auto;
+    padding:10px;
+    display:inline-block;
+    border : 5px solid black;
+    border-radius: 5%;
+    color: white;
+    background-color:  #6a0dad;;
+}
+input{
+    height:50px;
+    width:300px;
+    margin:10px;
+}
+h1,h4{
+    margin-left:10px;
+}
+.btn{
+    margin-left:10px;
+    margin-top: 20px;
+    padding: 5px 10px 5px 10px;
+    background-color: lightskyblue;
+    border-radius: 20%;
+}
