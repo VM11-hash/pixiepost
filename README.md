@@ -59,12 +59,13 @@ http://localhost:8000
 <hr>
 
 <h2>📸 Preview</h2>
-<pre><code>&lt;img src="./Preview/home.jpeg" alt="Homepage" width="400"&gt;
-&lt;img src="./Preview/loginpage.jpeg" alt="Post Section" width="400"&gt;
-</code></pre>
+<p>
+  <img src="Preview/home.jpeg" alt="Homepage" width="400">
+  <img src="Preview/loginpage.jpeg" alt="Post Section" width="400">
+</p>
 
 <hr>
 
 <h2>👩‍💻 Author</h2>
 <p><strong>Vartika Malik</strong><br>
-<a href="https://www.linkedin.com/in/vartika-malik-817281345/">LinkedIn Profile</a></p>
+<a href="https://www.linkedin.com/in/vartika-malik-817281345/">LinkedIn</a></p>
