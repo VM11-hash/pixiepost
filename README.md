@@ -11,6 +11,13 @@
 
 <hr>
 
+<h2>📸 Preview</h2>
+<p>
+  <img src="Preview/home.jpeg" alt="Homepage" width="500" height='400'>
+  <img src="Preview/loginpage.jpeg" alt="Post Section" width="500" height='400'>
+</p>
+
+<hr>
 <h2>✨ Features</h2>
 <ul>
   <li>Add new posts with an image and caption</li>
@@ -32,6 +39,7 @@
 
 <h2>🚀 How to Run Locally</h2>
 <pre><code>
+  
 # Clone the repository
 git clone https://github.com/VM11-hash/pixiepost.git
 
@@ -58,13 +66,6 @@ http://localhost:8000
 
 <hr>
 
-<h2>📸 Preview</h2>
-<p>
-  <img src="Preview/home.jpeg" alt="Homepage" width="400">
-  <img src="Preview/loginpage.jpeg" alt="Post Section" width="400">
-</p>
-
-<hr>
 
 <h2>👩‍💻 Author</h2>
 <p><strong>Vartika Malik</strong><br>
