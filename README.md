@@ -1,47 +1,70 @@
-PixiePost
-<br>
-PixiePost is a simple and aesthetic beginner -friendly web app where users can log in (UI only) and create , edit , or delete postcards with images and captions . 
-<br>
-<br>
-# FEATURES
-<br>
-1. Log in page (UI only)
-2. Add new post with image and caption
-3. Edit or delete existing post
-4. Clean and responsive design using EJS templating 
-<br>
-<br>
-# TECH STACK
-<br>
-1. HTML , CSS , JavaScript
-2. Node.js
-3. Express.js
-4. EJS
-<br>
-<br>
-# HOW TO RUN LOCALLY 
-<br>
-1. Clone repository
-```bash
+<h1>🌸 PixiePost</h1>
+<p>
+  <strong>PixiePost</strong> is a simple and aesthetic beginner-friendly web app where users can:
+</p>
+<ul>
+  <li>Log in via a UI-only form (no authentication)</li>
+  <li>Add posts with images and captions</li>
+  <li>Edit or delete existing posts</li>
+</ul>
+<p><em>All data is stored in-memory and resets on server restart</em></p>
+
+<hr>
+
+<h2>✨ Features</h2>
+<ul>
+  <li>Add new posts with an image and caption</li>
+  <li>Edit or delete posts</li>
+  <li>Clean UI using EJS templating</li>
+  <li>Responsive design</li>
+</ul>
+
+<hr>
+
+<h2>🛠 Tech Stack</h2>
+<ul>
+  <li><strong>Frontend:</strong> HTML, CSS, EJS</li>
+  <li><strong>Backend:</strong> Node.js, Express.js</li>
+  <li><strong>Templating:</strong> EJS</li>
+</ul>
+
+<hr>
+
+<h2>🚀 How to Run Locally</h2>
+<pre><code>
+# Clone the repository
 git clone https://github.com/VM11-hash/pixiepost.git
-2. Install dependencies 
-```bash
-npm install 
-3. start the server 
-```bash 
-node index.js 
-4. Open in browser
-```bash 
+
+# Move into project directory
+cd pixiepost
+
+# Install dependencies
+npm install
+
+# Start the server
+nodemon index.js
+
+# Open in browser
 http://localhost:8000
-<br>
-<br>
-# NOTE 
-<br>
-1. This is a learning project with no database or authentication 
-2. All data is stored in-memory and resets on server restart 
-<br>
-<br>
-# AUTHOR 
-<br> 
-Name - Vartika Malik 
-Linkedin : https://www.linkedin.com/in/vartika-malik-817281345/overlay/about-this-profile/
+</code></pre>
+
+<hr>
+
+<h2>📝 Note</h2>
+<ul>
+  <li>No database or authentication — purely a learning project</li>
+  <li>All post data is lost when the server restarts</li>
+</ul>
+
+<hr>
+
+<h2>📸 Preview</h2>
+<pre><code>&lt;img src="./Preview/home.jpeg" alt="Homepage" width="400"&gt;
+&lt;img src="./Preview/loginpage.jpeg" alt="Post Section" width="400"&gt;
+</code></pre>
+
+<hr>
+
+<h2>👩‍💻 Author</h2>
+<p><strong>Vartika Malik</strong><br>
+<a href="https://www.linkedin.com/in/vartika-malik-817281345/">LinkedIn Profile</a></p>
